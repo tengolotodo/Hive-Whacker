@@ -167,9 +167,15 @@ export default function App() {
       {/* Header */}
       <header className="border-b border-[#141414] p-6 flex justify-between items-center bg-white">
         <div className="flex items-center gap-6">
+          <img 
+            src="https://hive.io/static/logo.svg" 
+            alt="Hive Logo" 
+            className="w-10 h-10"
+            referrerPolicy="no-referrer"
+          />
           <div>
             <h1 className="font-display text-4xl uppercase tracking-tighter leading-none">Hive Whacker</h1>
-            <p className="font-mono text-xs opacity-60 mt-1 uppercase tracking-widest">Built on Hive Blockchain</p>
+            <p className="font-mono text-xs opacity-60 mt-1 uppercase tracking-widest">Built on Hive Blockchain by @tengolotodo</p>
           </div>
           
           {currentUser ? (

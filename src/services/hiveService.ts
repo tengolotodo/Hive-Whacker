@@ -56,7 +56,7 @@ export const searchHiveUser = async (username: string): Promise<HiveUser | null>
 };
 
 export const getTrendingUsers = async (): Promise<HiveUser[]> => {
-  const activeUsers = ['peakd', 'ecency', 'hiveio', 'blocktrades', 'gtg', 'roelandp', 'yabapmatt', 'aggroed'];
+  const activeUsers = ['hivewatchers', 'acidyo', 'lordbutterfly', 'tengolotodo', 'ocd', 'pharesim', 'erikah', 'aggroed'];
   const accounts = await callHiveRpc('condenser_api.get_accounts', [activeUsers]);
   
   if (!accounts) return [];
