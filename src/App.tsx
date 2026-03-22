@@ -1,3 +1,4 @@
+// Hive Whacker v1.0.1 - Built by @tengolotodo
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { Search, Trophy, Play, RotateCcw, UserPlus, X, Hammer } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
