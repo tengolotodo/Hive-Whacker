@@ -1,0 +1,5 @@
+{
+  "name": "Hive Whacker",
+  "description": "A Whac-A-Mole game where the moles are Hive blockchain users. Select your targets and start whacking!",
+  "requestFramePermissions": []
+}
